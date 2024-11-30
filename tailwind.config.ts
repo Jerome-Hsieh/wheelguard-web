@@ -16,7 +16,7 @@ const config: Config = {
         // foreground: "var(--foreground)",
       },
       backgroundImage: {
-        pageBG: "url('/images/bg.png')",
+        pageBG: "url('/images/bg.jpg')",
       },
     },
   },

@@ -1,5 +1,7 @@
 // import Image from "next/image";
 
+import Link from "next/link";
+
 // export default function Home() {
 //   return (
 //     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -113,7 +115,9 @@ const LoginForm = () => {
             <input type="text" name="" placeholder="使用者密碼" className="py-2 px-3 w-full text-black text-lg font-light outline-none"/>
             <div className="flex mt-5 justify-center">
               {/* <a href="">Not Yet Registred?</a> */}
-              <button type="submit" className="bg-black text-yellow font-medium py-2 px-8 transition hover:text-white">Sign in</button>
+                <Link href='/dashboard'>
+                <button type="submit" className="bg-black text-yellow font-medium py-2 px-8 transition hover:text-white">Sign in</button>
+                </Link>
             </div>
             </form>
           </aside>
