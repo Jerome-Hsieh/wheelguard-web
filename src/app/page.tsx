@@ -113,14 +113,12 @@ const LoginForm = () => {
           <form className="p-6">
             <input type="text" name="" placeholder="使用者名稱" className="py-2 px-3 w-full text-black text-lg font-light outline-none"/>
             <input type="text" name="" placeholder="使用者密碼" className="py-2 px-3 w-full text-black text-lg font-light outline-none"/>
-            <div className="flex mt-5 justify-center">
-              {/* <a href="">Not Yet Registred?</a> */}
-                <Link href='/dashboard'>
-                <button type="submit" className="bg-black text-yellow font-medium py-2 px-8 transition hover:text-white">Sign in</button>
-                </Link>
+            <div className="flex mt-5 justify-between items-center">
+              <Link href="/tmp-signup" className="text-white cursor-pointer transition hover:text-black">Not Yet Registred?</Link>
+              <button type="submit" className="bg-black text-yellow font-medium py-2 px-8 transition hover:text-white">Sign in</button>
             </div>
             </form>
-          </aside>
+        </aside>
       </div>
     </main>
   )
